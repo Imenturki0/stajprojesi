@@ -5,7 +5,7 @@ const app=express();
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(bodyparser.json());
 app.use(cors());
-const database={
+const database={ 
     users:[
     {
    id:'123',
