@@ -6,7 +6,7 @@ app.use(bodyparser.urlencoded({extended: false}));
 app.use(bodyparser.json());
 app.use(cors());
 const database={ 
-    users:[
+    users:[ 
     {
    id:'123',
    name:'john',
